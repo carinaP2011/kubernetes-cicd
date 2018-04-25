@@ -24,7 +24,7 @@ node {
     }
 
    stage('Push image to container registry') {
-        docker.withRegistry('https://sabbour.azurecr.io', 'acr-credentials') {
+        docker.withRegistry('https://group1registry.azurecr.io', 'acr-credentials') {
             app.push("${env.BUILD_NUMBER}")
             app.push("latest")
         }
