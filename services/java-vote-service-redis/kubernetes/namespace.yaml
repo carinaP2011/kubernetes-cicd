@@ -1,4 +1,4 @@
-apiVersion: v1
+apiVersion: v1beta1
 kind: Namespace
 metadata:
   name:  XX_NAMESPACE_XX
