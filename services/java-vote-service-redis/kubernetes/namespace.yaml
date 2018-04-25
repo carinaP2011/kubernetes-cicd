@@ -1,4 +1,4 @@
-apiVersion: v1beta1
+apiVersion: apps/v1beta1
 kind: Namespace
 metadata:
   name:  XX_NAMESPACE_XX
