@@ -1,5 +1,5 @@
 kind: Service
-apiVersion: v1beta1
+apiVersion: v1
 metadata:
   name: java-vote-service
   namespace: XX_NAMESPACE_XX
